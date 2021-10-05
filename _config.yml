@@ -1,6 +1,12 @@
 # Dependencies
 remote_theme: fongandrew/hydeout
 
+$sidebar-bg-color: #202020 !default;
+$sidebar-fg-color: white !default;
+$sidebar-sticky: true !default;
+$layout-reverse: false !default;
+$link-color: #268bd2 !default;
+
 markdown:         kramdown
 highlighter:      rouge
 
@@ -9,7 +15,7 @@ title:            D菌的个人博客
 tagline:          'Blog'
 description:      'QQ:2470819243'
 url:              https://cutrelyalex.github.io/
-baseurl:          '/hydeout'
+baseurl:          '/blog'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
                   # If you want to move just the blog index pages but keep
